@@ -1,0 +1,7 @@
+#!/usr/bin/env ruby
+
+require './lib/werewolf.rb'
+
+begin
+  GameGenerator.new(ARGV)
+end
